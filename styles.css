@@ -1,0 +1,83 @@
+*{
+  color:white;
+  font-family:Stylish;
+  color:#FFF8C4;
+}
+
+.flex-column{
+  
+  position:fixed;
+  
+}
+
+body{
+  background-color:#A81500 ;
+}
+/*particle-css*/
+/* ---- reset ---- */ 
+
+canvas{ 
+    display: block; 
+    vertical-align: bottom; 
+} 
+/* ---- particles.js container ---- */ 
+#particles-js{
+    position:absolute;
+    width: 100%; 
+    height: 100%; 
+    background-color:; 
+    background-image: url(""); 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position: 50% 50%;
+    padding:-20px;
+    position: fixed !important;
+    display: block;
+} 
+div{
+  position:relative;
+}
+#data{
+  position:relative;
+  height:100%;
+}
+.nav-link{
+  font-size:25px;
+}
+#myimg{
+  display:inline-block;
+  vertical-align:middle;
+}
+
+
+body {
+      position: relative;
+  }
+.nav-pills {
+      top: 25%;
+      position: fixed;
+  }
+#intro {
+  min-height: 600px;
+  padding-top:100px;
+}
+span{
+  font-size:40px;
+}
+#data{
+  margin-left:50px;
+}
+p,ul{
+  font-size:25px;
+  margin-top:30px;
+}
+.nav-pills>.nav-link{
+  color:#1F2553;
+}
+#data>div{
+  min-height:300px;
+}
+.nav-pills>.nav-link.active{
+  background-color:#1F2553;
+}
+
