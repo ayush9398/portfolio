@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Ayush Mittal</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link href="https://fonts.googleapis.com/css?family=Stylish" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css"></script>
+    </head>
+    <body data-spy="scroll" data-target="#left_list" data-offset="1">
+      <div id="particles-js">
+      </div>
+      <div id="wrap-all" class="container-fluid navbar-expand-lg" height="100%" >
+        <div class="row">
+          <div class="d-none d-lg-block col-md-1 " id="left_list">
+             <div class="navbar navbar-dark">
+                <nav class="nav nav-pills flex-column">
+                  <h1 id="text2">Hello!</h1>
+                  <a class="nav-link" href="#intro">Intro</a>
+                  <a class="nav-link" href="#skills">Skills</a>
+                  <a class="nav-link" href="#projects"style="font-size:22px">Projects</a>
+                  <!--<a class="nav-link" href="#blog">Blog</a>-->
+                  <a class="nav-link" href="#contact">Contact</a>
+                </nav>
+             </div>
+          </div>
+        <div id="data" class="col-xs-12 col-md-10" >
+          <div id="intro">
+            <img id="myimg" class="img-responsive d-block rounded-circle mx-auto hvr-rotate animated pulse " src="https://raw.githubusercontent.com/ayush9398/portfolio/master/myimg.jpeg?token=AUU0KG6baJ3JczZIe6KSl3xsz1LXmp1Cks5bA8AVwA%3D%3D" height="200px" width="200px;">
+             <h1 class="text-center">Ayush Mittal</h1>
+             <h2 id="intro-text" class="text-center">I am <span id="text">Pythonist</span></h2>
+            <p class="text-center">Currently enrolled in B.Tech at Maharaja Surajmal Institute of Technology</p>
+          </div>
+          <hr>
+          <div id="skills">
+            <h1 class="text-center">Skills</h1>
+            <div class="row">
+              <div class="col-sm-4">
+                 <ul>
+              <li>Python</li>
+              <li>C</li>
+              <li>C++</li>
+              <li>Javascript</li>
+              <li>Html</li>
+            </ul>
+              </div>
+              <div class="col-sm-4">
+                 <ul>
+              <li>CSS</li>
+              <li>Bootstrap</li>
+              <li>Angular</li>
+              <li>Algorithms</li>
+              <li>Data Structures</li>
+            </ul>
+              </div>
+              <div class="col-sm-4">
+                 <ul>
+              <li>Command-Line</li>
+              <li>IOT</li>
+              <li>MySQL</li>
+              <li>Linux</li>
+              <!--<li>Html</li>-->
+            </ul>
+              </div>
+            </div>
+           
+          </div>
+          <hr>
+          <div id="projects">
+            <h1 class="text-center">Projects<h1>
+          </div>
+          <hr>
+          <!--<div id="blog">
+            <h1 class="text-center">Blog</h1>  
+          </div>
+          <hr>-->
+          <div id="contact">
+            <h1 class="text-center"> Contact</h1>
+          </div>
+        </div>
+       </div>
+      </div>
+    </body>
+    <script>
+      var myself=[
+        "a Pythonist",
+        "a Web Developer",
+        "a Data Science Enthusiast",
+        "Shell scripter",
+        "Traveller",
+        "Researcher",
+        "Programmer",
+        "Science lover",
+        "a Learner",
+        'a Tech Geek'
+      ]
+      
+      function change(){
+      rand_text=Math.floor(Math.random()*myself.length);
+      document.getElementById('text').innerHTML=myself[rand_text];
+      }
+      onload= function(){
+        change();
+      }
+      var inter=setInterval(function(){change();},500);
+    </script>
+</html>
