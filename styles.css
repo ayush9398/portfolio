@@ -75,7 +75,7 @@ p,ul{
   color:#1F2553;
 }
 #data>div{
-  min-height:300px;
+  min-height:200px;
 }
 .nav-pills>.nav-link.active{
   background-color:#1F2553;
@@ -83,3 +83,4 @@ p,ul{
 .list-inline-item{
   margin:15px;
 }
+
