@@ -80,4 +80,6 @@ p,ul{
 .nav-pills>.nav-link.active{
   background-color:#1F2553;
 }
-
+.list-inline-item{
+  margin:15px;
+}
