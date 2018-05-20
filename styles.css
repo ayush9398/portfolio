@@ -1,7 +1,11 @@
 *{
   color:white;
-  font-family:Stylish;
+  font-family:myfont;
   color:#FFF8C4;
+}
+@font-face{
+    font-family: myfont;
+    src: url(./AdobeDevanagari-BoldItalic.otf);
 }
 
 .flex-column{
