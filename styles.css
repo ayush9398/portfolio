@@ -15,7 +15,7 @@
 }
 
 body{
-  background-color:#A81500 ;
+  background-color:#000009 ;
 }
 /*particle-css*/
 /* ---- reset ---- */ 
@@ -73,13 +73,13 @@ p,ul{
   margin-top:30px;
 }
 .nav-pills>.nav-link{
-  color:#1F2553;
+  color:#0000F7;
 }
 #data>div{
   min-height:200px;
 }
 .nav-pills>.nav-link.active{
-  background-color:#1F2553;
+  background-color:#7615D1;
 }
 .list-inline-item{
   margin:15px;
@@ -97,4 +97,8 @@ p,ul{
        padding-left:150px;
     }
 }
-
+.myf{
+    margin-top:40%;
+    font-style:italic;
+    font-size:80px;
+}
